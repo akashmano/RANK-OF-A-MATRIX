@@ -5,12 +5,30 @@ To write a python program to find the rank of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step 1: 
-### Step 2: 
-### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
-### Step 4: 
+## Step 1:
+we have to intialise program using import numpy to perform mathematical calculation
+
+## Step 2:
+THe input from the user is stored in the variable a
+
+## Step 3:
+Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
+
+## Step 4:
+end of the program
 ## Program:
+```
+#Program to find the rank of a matrix.
+#Developed by: akash m
+#RegisterNumber:212223240003
+import numpy as np
+matrix=np.array([[3,2,5],[1,1,2],[3,3,6]])
+rank=np.linalg.matrix_rank(matrix)
+print(rank)
+```
 ## Output:
+![image](https://github.com/akashmano/RANK-OF-A-MATRIX/assets/137408306/73654b11-414f-4b48-8c43-300985ea6c55)
+
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
 
